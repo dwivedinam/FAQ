@@ -6,7 +6,9 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <Link to="/" className="logo">Lamasocial</Link>
+      <Link to="/" style={{ textDecoration: "none" }}>
+          <span className="logo">Lamasocial</span>
+        </Link>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
